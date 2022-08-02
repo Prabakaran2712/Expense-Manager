@@ -1,0 +1,26 @@
+.inpinc{
+    white-space: pre;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input{
+    position: relative;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+   
+    border-bottom: 2px solid;
+    left: 0px;
+
+}
+input[type=text]:focus +label{
+    border-color: green;
+    
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}  

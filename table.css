@@ -1,0 +1,22 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: black solid 2px;
+    color: black;
+    
+}
+ th{
+    border: black solid 2px;
+    width: 100px;
+    height: 50px;
+   
+
+}
+table button{
+    background-color: rgba(0, 10, 250, 0.5);
+        color: white;
+        width: 100%;
+        height: 100%;
+        border-color: black;
+
+}
